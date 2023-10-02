@@ -35,8 +35,8 @@ To obtain the empirical power and size properties of PROFIT for various simulati
 
 The following R script needs to be submitted in an unix terminal to compute the the probability of rejecting the null hypothesis for PROFIT under the setting: `factor=11`, `smooth_mean=TRUE`, `delta=0`, `PVE=0.9`, `N_Knots=20`, `n_rep=100` (please increase it for real experiment), and `ncores=4`
 ```{r, engine = 'bash', eval = FALSE}
-cd ./Simulation
-Rscript profit_sim.R 11 TRUE 0 0.9 20 100 4
+cd ./Simulation # Set the current directory to Simulation.
+Rscript profit_sim.R 11 TRUE 0 0.9 20 100 4 # Run Rscript with the intended parameters.
 ```
 
 The result will be saved inside the `./Results/` folder in the appropriate sub-directory specified in the argument list. 

@@ -59,8 +59,8 @@ under the setting: `factor=11`, `smooth_mean=TRUE`, `delta=0`,
 experiment), and `ncores=4`
 
 ``` bash
-cd ./Simulation
-Rscript profit_sim.R 11 TRUE 0 0.9 20 100 4
+cd ./Simulation # Set the current directory to Simulation.
+Rscript profit_sim.R 11 TRUE 0 0.9 20 100 4 # Run Rscript with the intended parameters.
 ```
 
 The result will be saved inside the `./Results/` folder in the
