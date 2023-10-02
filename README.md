@@ -43,9 +43,10 @@ Rscript command. The input required to run this file are as follows
 - `delta` : a number that controls departure from null; `delta` = 0
   indicates null, otherwise alternate hypothesis. This parameter is the
   same as the $\delta$ in Section 4.1 of the manuscript.
-- `PVE` : Percentage of variation explained set to extract the
-  eigenfunctions, should be at least 0.9, and less than 1.
-- `N_Knots` : Number of knots, $Q$, used to represent eta_k(t) using
+- `PVE` : Percentage of variation explained to be used to extract the
+  eigenfunctions from the smoothed marginal covariance estimate, should
+  be at least $0.9$, and less than $1$.
+- `N_Knots` : Number of knots, $Q$, used to represent $\eta_k(t)$ using
   truncated linear basis, should be at least 10;
 - `n_rep` : Number of replication used to empirically compute the power,
   should be $\geq 5000$ for $\delta=0$ to get reliable results, for
