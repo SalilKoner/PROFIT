@@ -13,8 +13,12 @@ functional data $\{Y_j(s), t_{j}\}_{j=1}^m$ observed longitudinally over
 different time points in a compact time domain. Suppose
 $\mu(s,t_j) = \mathbb{E}(Y_j(s))$ is the mean function of the response
 at time $t_j$. We want to test whether $$
+\begin{aligned}
 \mu(s,t) = \mu(s,t^\prime) \;\; \text{for all } s \text{ and } t \neq t^\prime \qquad \text{vs} \qquad \mu(s,t) \neq \mu(s,t^\prime) \;\; \text{for some } s \text{ and } t \neq t^\prime
-$$ In this GitHub repository, we present the R code for implementing
+\end{aligned}
+$$
+
+In this GitHub repository, we present the R code for implementing
 PROFIT. Specifically, the
 [simulation](https://github.com/SalilKoner/PROFIT/tree/main/Simulation)
 folder contains all the necessary code to reproduce the results
