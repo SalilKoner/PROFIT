@@ -1,14 +1,7 @@
 # R packages
-require(nlme)
-require(tidyverse)
-require(fda)
-require(doSNOW)
-require(face)
-require(fdapace)
-require(refund)
-require(RLRsim)
-require(mgcv)
-require(rlang)
+
+if (!require(pacman, quietly = TRUE)) install.packages("pacman")
+pacman::p_load(tidyverse, nlme, fda, face, fdapace, refund, RLRsim, mgcv, rlang)
 
 
 mkdirs <- function(fp) {
