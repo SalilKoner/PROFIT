@@ -11,7 +11,7 @@ args              <- commandArgs(TRUE)
 factor            <- as.integer(args[1]) # factor to determine sample size and sparsity level; 
                                          # see "utilities/factor.R", must be an integer between 11 and 21.
 smooth_mean       <- as.logical(args[2]) # TRUE for smooth mean, FALSE for non-smooth mean;
-                                         # see "utilities/sim_settings.R".=, must be logical.
+                                         # see "utilities/sim_settings.R"., must be logical.
 delta             <- as.numeric(args[3]) # The control parameter for departure from null; delta = 0 indicates null.
 PVE               <- as.numeric(args[4]) # Percentage of variation explained set to extract the
                                          # eigenfunctions, should be at least 0.9, and less than 1.
