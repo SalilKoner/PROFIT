@@ -10,8 +10,8 @@ The goal of **PROjection-based Functional Invariance Testing (PROFIT)**
 is to test whether the mean function on a longitudinally collected
 functional data setting is time-invariant or not. Mathematically
 speaking, suppose we observe replications of functional data
-$\{Y_j(s), t_{j}\}_{j=1}^m$ observed longitudinally over different time
-points in a compact time domain. Suppose
+$\\{Y_j(s), t_{j} : j=1, \dots, m\\}$ observed longitudinally over
+different time points in a compact time domain. Suppose
 $\mu(s,t_j) = \mathbb{E}(Y_j(s))$ is the mean function of the response
 at time $t_j$. We want to test whether
 

@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of **PROjection-based Functional Invariance Testing (PROFIT)** is to test whether the mean function on a longitudinally collected functional data setting is time-invariant or not. Mathematically speaking, suppose we observe replications of functional data $\{Y_j(s), t_{j}\}_{j=1}^m$ observed longitudinally over different time points in a compact time domain. Suppose $\mu(s,t_j) = \mathbb{E}(Y_j(s))$ is the mean function of the response at time $t_j$. We want to test whether 
+The goal of **PROjection-based Functional Invariance Testing (PROFIT)** is to test whether the mean function on a longitudinally collected functional data setting is time-invariant or not. Mathematically speaking, suppose we observe replications of functional data $\\{Y_j(s), t_{j} : j=1, \dots, m\\}$ observed longitudinally over different time points in a compact time domain. Suppose $\mu(s,t_j) = \mathbb{E}(Y_j(s))$ is the mean function of the response at time $t_j$. We want to test whether 
 ```math
 \mu(s,t) = \mu(s,t^\prime) \;\; \text{for all } s \text{ and } t \neq t^\prime \qquad \text{vs} \qquad \mu(s,t) \neq \mu(s,t^\prime) \;\; \text{for some } s \text{ and } t \neq t^\prime
 ```
