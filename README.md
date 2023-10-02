@@ -13,10 +13,11 @@ speaking, suppose we observe replications of functional data
 $\\{Y_j(s), t_{j} : j=1, \dots, m\\}$ observed longitudinally over
 different time points in a compact time domain. Suppose
 $\mu(s,t_j) = \mathbb{E}[Y_j(s)]$ is the mean function of the response
-at time $t_j$. We want to test whether
+at time $t_j$. We want to test whether the mean function is temporally
+invariant, i.e.,
 
 ``` math
-\mu(s,t) = \mu(s,t^\prime) \;\; \text{for all } s \text{ and } t \neq t^\prime \qquad \text{vs} \qquad \mu(s,t) \neq \mu(s,t^\prime) \;\; \text{for some } s \text{ and } t \neq t^\prime
+\mu(s,t) = \mu(s,t^\prime) \;\; \text{for all } s \text{ and } t \neq t^\prime \qquad \text{vs} \qquad \mu(s,t) \neq \mu(s,t^\prime) \;\; \text{for some } s \text{ and } t \neq t^\prime.
 ```
 
 In this GitHub repository, we present the R code for implementing
